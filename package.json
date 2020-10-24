@@ -1,7 +1,7 @@
 {
   "name": "react-employee-directory",
   "version": "0.1.0",
-  "homepage": "https://github.com/bcourtney1029/react-employee-directory.git",
+  "homepage": "https://bcourtney1029.github.io/react-employee-directory",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,7 +10,7 @@
     "axios": "^0.19.2",
     "react": "^16.14.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.1",
     "babel-jest": "^24.9.0"
   },
   "scripts": {
