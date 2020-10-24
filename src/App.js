@@ -11,7 +11,7 @@ function App() {
     const [data, setEmployeeList] = useState(employees);
 
     // function to set the search term to whatever value the user has inputed
-    function setSearchTerm(event) {
+    function handleSearchTerm(event) {
         setSearchTerm(event.target.value);
     }
 
@@ -33,7 +33,7 @@ function App() {
                <h1 className="title text-5xl mt-16">Employee Directory</h1>
                <p className="text-lg mt-16">You can search by employee name or sort by employee name</p> 
                <Nav
-                    setSearchTerm={setSearchTerm}
+                    handleSearchTerm={handleSearchTerm}
                     searchTerm={searchTerm}
                     sortByName={sortByName}
                 />
