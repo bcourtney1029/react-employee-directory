@@ -2,10 +2,10 @@ import React from "react";
 
 function EmployeeCard({name, image, email, phone}) {
     return (
-        <div className="md:flex bg-white text-gray px-8 my-5 py-5 items-center justify-between">
+        <div className="md:flex bg-white shadow text-gray px-10 my-4 py-4 items-center justify-between">
             <img    
                 style={{maxWidth: "50px"}}
-                className="border border-gray-300"
+                className="border border-gray"
                 src={image}
                 alt="employeeImg"
             />
